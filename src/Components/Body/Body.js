@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import About from "./About";
+import { Route, Link } from "react-router-dom";
 import Contact from "./Contact";
-import Resume from "./Resume";
 import Projects from "./Projects";
 import Home from "./Home/Home";
 import styled from "styled-components";
@@ -33,19 +31,13 @@ class Body extends Component {
         <LinkWrapper>
           <StyledLink to="/">Home</StyledLink>
 
-          <StyledLink to="/about">About</StyledLink>
-
           <StyledLink to="/contact/">Contact</StyledLink>
-
-          <StyledLink to="/resume/">Resume</StyledLink>
 
           <StyledLink to="/projects/">Projects</StyledLink>
         </LinkWrapper>
 
         <Route path="/" exact component={Home} />
-        <Route path="/about" exact component={About} />
         <Route path="/contact/" component={Contact} />
-        <Route path="/resume/" component={Resume} />
         <Route path="/projects/" component={Projects} />
       </div>
     );
