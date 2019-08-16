@@ -26,6 +26,7 @@ const SocialFollow = styled.div`
 
   > div {
     width: 100%;
+    padding: 2%;
   }
 `;
 const SocialIcon = styled.a`

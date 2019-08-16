@@ -30,10 +30,8 @@ class Body extends Component {
       <div>
         <LinkWrapper>
           <StyledLink to="/">Home</StyledLink>
-
-          <StyledLink to="/contact/">Contact</StyledLink>
-
           <StyledLink to="/projects/">Projects</StyledLink>
+          <StyledLink to="/contact/">Contact</StyledLink>
         </LinkWrapper>
 
         <Route path="/" exact component={Home} />

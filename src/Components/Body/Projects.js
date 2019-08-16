@@ -19,7 +19,7 @@ class Projects extends Component {
   render() {
     return (
       <Wrapper>
-      <h2>This is the Projects!!!</h2>
+      <h2>These are my projects!!!</h2>
     </Wrapper>
     );
   }
