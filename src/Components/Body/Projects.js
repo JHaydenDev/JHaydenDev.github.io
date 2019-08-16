@@ -11,6 +11,13 @@ const Wrapper = styled.div`
   padding-top: 2%;
   padding-bottom: 2%;
   min-height: 50vh;
+  @media (max-width: 600px) {
+    flex-direction:column;
+    align-items: center;
+    width:100%; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
 `;
 
 

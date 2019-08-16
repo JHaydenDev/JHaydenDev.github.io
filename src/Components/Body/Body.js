@@ -12,7 +12,12 @@ const StyledLink = styled(Link)`
   &:hover{
     color:aqua;
     transition: 0.3s;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.7);
+    box-shadow: 0 5px 15px rgba(0,0,0,1);
+  }
+  font-size:1.4rem;
+  @media (max-width: 600px) {
+    width:80%;
+    margin: auto;
   }
 `;
 
@@ -22,6 +27,10 @@ const LinkWrapper = styled.div`
   width: 100%;
   padding-top: 4%;
   padding-bottom: 4%;
+  @media (max-width: 600px) {
+    display:flex;
+    flex-direction:column;
+  }
 `;
 
 class Body extends Component {

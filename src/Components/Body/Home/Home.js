@@ -12,6 +12,13 @@ const Wrapper = styled.div`
   min-height: 50vh;
   display: flex;
   flex-direction: row;
+  @media (max-width: 600px) {
+    flex-direction:column;
+    align-items: center;
+    width:100%; 
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
   flex-wrap: wrap;
   > p {
     width: 48%;
@@ -24,10 +31,11 @@ const AboutPicture = styled.div`
   text-align: center;
   background: url(${AboutMePic});
   background-position: center;
-  min-height: 39vh;
+  height:46 rem;
+  min-height: 46vh;
   background-repeat: no-repeat;
   width: 48%;
-  background-size: 14rem;
+  background-size: 19rem;
 `;
 
 class Home extends Component {
