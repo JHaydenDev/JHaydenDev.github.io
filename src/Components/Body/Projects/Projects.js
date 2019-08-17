@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import styled from "styled-components";
-import MediaCard from "./Cards";
+import Card from "./Cards";
+import PortfolioPageImg from "./PortfolioPage.png";
+import DevDeskQImg from "./DevDeskQ.png";
+import DungeonHelperImg from "./DungeonHelper.png";
 
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
@@ -10,7 +13,7 @@ const Wrapper = styled.div`
   padding-top: 2%;
   padding-bottom: 2%;
   min-height: 50vh;
-  @media (max-width: 600px) {
+  @media (max-width: 760px) {
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -24,16 +27,36 @@ class Projects extends Component {
     super(props);
     this.state = { 
 
-      images: [],
-      cardinfo: []
-
+      projects: [
+        {
+          image: PortfolioPageImg,
+          heading:"Portfolio Page",
+          description:"This portfolio page was created using ReactJS, React Router, Styled Components, and HTML5",
+          github:"https://github.com/JHaydenDev/JHaydenDev.github.io",
+          hosted:"https://jhaydendev.github.io",
+        },
+        {
+          image: DevDeskQImg,
+          heading:"Dev Desk Queue",
+          description: "Dev Desk Queue is a ticketing system for Devs with CRUD functionality",
+          github:"https://github.com/JHaydenDev/Front-End",
+          hosted:"https://devdeskqueue.com",
+        },
+        {
+          image: DungeonHelperImg,
+          heading:"Dungeon-Helper",
+          description:"Dungeon Helper is a encounter generator for Dungeons and Dragons.",
+          github:"https://github.com/JHaydenDev/dnd-encounter-generator",
+          hosted:"https://dungeon-helper.com",
+        },
+      ]
      };
   }
 
   render() {
     return (
       <Wrapper>
-        <MediaCard />
+        <Card projects={this.state.projects} />  
       </Wrapper>
     );
   }

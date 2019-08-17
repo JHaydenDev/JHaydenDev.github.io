@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  @media (max-width: 600px) {
+  @media (max-width: 760px) {
     flex-direction:column;
     align-items: center;
     width:100%; 
@@ -58,8 +58,8 @@ class Footer extends Component {
       <Wrapper>
         <ContactInfo>
           <h3>Contact Info</h3>
-          <p>Email: josephhaydendevelopment@gmail.com</p>
-          <p>Location: Chicago, IL</p>
+          <p>Email<br/>josephhaydendevelopment<br/>@gmail.com</p>
+          <p>Location<br/>Chicago, IL</p>
         </ContactInfo>
         <SocialFollow>
           <h3>Follow me on social media!</h3>

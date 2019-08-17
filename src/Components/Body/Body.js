@@ -7,17 +7,20 @@ import styled from "styled-components";
 
 const StyledLink = styled(Link)`
   color: white;
+  width:27%;
+  margin:1%;
   text-decoration: none;
   padding: 2%;
+  border: 1px solid white;
   &:hover{
+    border: 1px solid aqua;
     color:aqua;
     transition: 0.3s;
     box-shadow: 0 5px 15px rgba(0,0,0,1);
   }
-  font-size:1.4rem;
-  @media (max-width: 600px) {
+  @media (max-width: 760px) {
     width:80%;
-    margin: auto;
+    margin: 1% auto;
   }
 `;
 
@@ -27,7 +30,10 @@ const LinkWrapper = styled.div`
   width: 100%;
   padding-top: 4%;
   padding-bottom: 4%;
-  @media (max-width: 600px) {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  @media (max-width: 760px) {
     display:flex;
     flex-direction:column;
   }

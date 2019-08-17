@@ -12,7 +12,7 @@ const Wrapper = styled.div`
   min-height: 50vh;
   display: flex;
   flex-direction: row;
-  @media (max-width: 600px) {
+  @media (max-width: 760px) {
     flex-direction:column;
     align-items: center;
     width:100%; 
@@ -23,6 +23,9 @@ const Wrapper = styled.div`
   > p {
     width: 48%;
     margin: auto;
+    @media (max-width: 760px) {
+      padding-top: 5%;
+    }
   }
 `;
 
@@ -36,6 +39,7 @@ const AboutPicture = styled.div`
   background-repeat: no-repeat;
   width: 48%;
   background-size: 19rem;
+  
 `;
 
 class Home extends Component {

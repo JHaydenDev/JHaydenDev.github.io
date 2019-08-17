@@ -13,6 +13,9 @@ const BackgroundLayer = styled.div`
   color: white;
   min-height: 100vh;
   background-repeat: no-repeat;
+  @media (max-width: 760px) {
+    background-size: cover;
+  }
 `;
 const AppWrapper = styled.div`
   width: 85%;
