@@ -1,7 +1,6 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 import styled from "styled-components";
-
-
+import MediaCard from "./Cards";
 
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
@@ -12,22 +11,30 @@ const Wrapper = styled.div`
   padding-bottom: 2%;
   min-height: 50vh;
   @media (max-width: 600px) {
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
-    width:100%; 
+    width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
   }
 `;
 
-
-
 class Projects extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { 
+
+      images: [],
+      cardinfo: []
+
+     };
+  }
+
   render() {
     return (
       <Wrapper>
-      <h2>These are my projects!!!</h2>
-    </Wrapper>
+        <MediaCard />
+      </Wrapper>
     );
   }
 }

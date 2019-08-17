@@ -14,27 +14,27 @@ const Wrapper = styled.div`
   margin-top: 5%;
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
   @media (max-width: 600px) {
     flex-direction:column;
     align-items: center;
-    
+    width:100%; 
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
-  justify-content: space-around;
-  >div{
-    width:45%;
-    @media (max-width: 600px) {
-      flex-direction:column;
-      align-items: center;
-      width:100%; 
-    }
-  }
-  
 `;
 
 
+const ContactInfo = styled.div`
+width: 45%;
+margin: auto;
+@media (max-width: 600px) {
+  width:auto;
+`;
 
 const SocialFollow = styled.div`
   width: 45%;
+  margin: auto;
   display: flex;
   padding: 5%;
   flex-wrap: wrap;
@@ -45,7 +45,6 @@ const SocialFollow = styled.div`
 `;
 const SocialIcon = styled.a`
  padding:3%;
- 
  &:hover{
   color:aqua;
   transition: 0.3s;
@@ -57,11 +56,11 @@ class Footer extends Component {
   render() {
     return (
       <Wrapper>
-        <div>
+        <ContactInfo>
           <h3>Contact Info</h3>
           <p>Email: josephhaydendevelopment@gmail.com</p>
           <p>Location: Chicago, IL</p>
-        </div>
+        </ContactInfo>
         <SocialFollow>
           <h3>Follow me on social media!</h3>
           <div>
