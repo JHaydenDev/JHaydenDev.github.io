@@ -72,8 +72,8 @@ const CardContainer = props => {
         <p>{props.project.description}</p>
       </TextBox>
       <LinkBox>
-        <StyledLink href={props.project.github}>code</StyledLink>
-        <StyledLink href={props.project.hosted}>hosted</StyledLink>
+        <StyledLink href={props.project.github}>Code</StyledLink>
+        <StyledLink href={props.project.hosted}>Hosted</StyledLink>
       </LinkBox>
     </CardBox>
   );
