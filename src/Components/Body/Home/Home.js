@@ -50,7 +50,7 @@ class Home extends Component {
         <p>
           Hello, I'm Joseph Hayden. I am a front end developer and I am passonate
           about creating software that improves the daily lives of those around
-          me. I like to create sites with clear cut ease of use with a
+          me. I like to create sites with clear cut ease of use and
           responsive design.
         </p>
       </Wrapper>
