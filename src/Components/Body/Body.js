@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Route, Link } from "react-router-dom";
-import Contact from "./Contact";
+import Contact from "./Contact/Contact"
 import Projects from "./Projects/Projects";
 import Home from "./Home/Home";
 import styled from "styled-components";
