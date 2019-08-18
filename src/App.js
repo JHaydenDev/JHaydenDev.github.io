@@ -30,7 +30,7 @@ class App extends Component {
       <BackgroundLayer>
         <AppWrapper>
           <Header />
-          <Router>
+          <Router basename='/'>
             <Body />
           </Router>
           <Footer />
