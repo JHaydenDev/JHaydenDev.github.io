@@ -6,7 +6,7 @@ const GOOGLE_FORM_MESSAGE_ID = "entry.839337160";
 const GOOGLE_FORM_EMAIL_ID = "entry.1045781291";
 const CORS_PROXY = "https://cors-escape.herokuapp.com/";
 const GOOGLE_FORM_ACTION =
-  "https://docs.google.com/forms/d/1GDUjFpU7jRsiE7iQpoUBs4Kj6BfiCLksnIU4ARDcKeY";
+  "https://docs.google.com/forms/u/1/d/e/1FAIpQLScu94WMCzap_LGPhAFEu2Sib8SivvL5-QWmHN2nTOD-SSz6Ug/formResponse?edit2=2_ABaOnud6_7lJD-2FEGn4OYl_sKqUXheoO_vGDTU267DN";
 
 class ContactBox extends Component {
   constructor(props) {
@@ -91,7 +91,7 @@ class ContactBox extends Component {
     if (this.state.messageSent) {
       return (
         <React.Fragment>
-          <div className="success-message">Sent! I will respond asap</div>
+          <div className="success-message">Sent! I will respond ASAP!</div>
           {this.returnButton()}
         </React.Fragment>
       );
@@ -102,7 +102,7 @@ class ContactBox extends Component {
         <React.Fragment>
           <div className="error-message">
             Sorry, your message was not sent. Contact me at:
-            leandrovicente.info@gmail.com
+            josephhaydendevelopment@gmail.com
           </div>
           {this.returnButton()}
         </React.Fragment>
