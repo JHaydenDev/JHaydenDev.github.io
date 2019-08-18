@@ -4,7 +4,7 @@ import axios from "axios";
 
 const GOOGLE_FORM_MESSAGE_ID = "entry.839337160";
 const GOOGLE_FORM_EMAIL_ID = "entry.1045781291";
-const CORS_PROXY = "https://cors-escape.herokuapp.com/";
+const CORS_PROXY = "https://cors-anywhere.herokuapp.com/";
 const GOOGLE_FORM_ACTION =
   "https://docs.google.com/forms/u/1/d/e/1FAIpQLScu94WMCzap_LGPhAFEu2Sib8SivvL5-QWmHN2nTOD-SSz6Ug/formResponse";
 
