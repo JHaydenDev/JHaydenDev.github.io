@@ -1,6 +1,39 @@
 import React, { Component } from "react";
 import axios from "axios";
+import styled from "styled-components";
 
+const Buttons = styled.button`
+  color: white;
+  background-color: Transparent;
+  border: 1px solid white;
+  margin: 5%;
+  padding:2%;
+  &:hover {
+    border: 1px solid aqua;
+    color: aqua;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+  }
+`;
+
+const ContactButton = styled.button`
+  color: white;
+  background-color: Transparent;
+  border: 1px solid white;
+  margin: 5%;
+  height: 65px;
+  padding:2%;
+  &:hover {
+    border: 1px solid aqua;
+    color: aqua;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+  }
+`;
+
+const MessageBox = styled.textarea`
+  height: 150px;
+`;
 
 const GOOGLE_FORM_MESSAGE_ID = "entry.839337160";
 const GOOGLE_FORM_EMAIL_ID = "entry.1045781291";
@@ -74,13 +107,13 @@ class ContactBox extends Component {
   };
 
   returnButton = () => (
-    <button
+    <Buttons
       id="return-button"
       className="btn btn-default btn-xs"
       onClick={this.handleReturnButton}
     >
       Return
-    </button>
+    </Buttons>
   );
 
   render() {
@@ -110,68 +143,47 @@ class ContactBox extends Component {
     }
 
     if (this.state.showForm === false) {
-      return (
-        <button
-          id="contact-button"
-          className="btn btn-sm"
-          onClick={this.handleFormToggle}
-        >
-          Contact
-        </button>
-      );
+      return <ContactButton onClick={this.handleFormToggle}>Contact Form</ContactButton>;
     }
 
     return (
       <React.Fragment>
-        <div className="form-container">
+        <div>
           <form onSubmit={this.handleSubmit}>
-            <div className="form-group row">
-              <label htmlFor="email" className="col-sm-2 col-form-label">
-                Email:
-              </label>
-              <div className="col-sm-8">
+            <div>
+              <label htmlFor="email">Email:</label>
+              <div>
                 <input
                   type="email"
                   name="email"
                   id="email"
-                  className="form-control"
                   value={this.state.email}
                   onChange={this.handleChange}
                   required
                 />
               </div>
             </div>
-            <div className="form-group row">
-              <label htmlFor="message" className="col-sm-2 col-form-label">
-                Message:
-              </label>
-              <div className="col-sm-8">
-                <textarea
+            <div>
+              <label htmlFor="message">Message:</label>
+              <div>
+                <MessageBox
                   id="message"
                   name="message"
-                  className="form-control"
                   required
                   value={this.state.message}
                   onChange={this.handleChange}
-                  rows="6"
                 />
               </div>
             </div>
             <div>
-              <button
+              <Buttons
                 type="button"
                 id="cancel-button"
-                className="btn btn-default btn-sm btn-action"
                 onClick={this.handleFormToggle}
               >
                 Cancel
-              </button>
-              <button
-                type="submit"
-                className="btn btn-sm btn-default btn-action"
-              >
-                Submit
-              </button>
+              </Buttons>
+              <Buttons type="submit">Submit</Buttons>
             </div>
           </form>
         </div>

@@ -11,11 +11,11 @@ const BackgroundLayer = styled.div`
   text-align: center;
   background: url(${BackgroundImg});
   color: white;
+  background-size: cover;
   min-height: 100vh;
   background-repeat: no-repeat;
-  @media (max-width: 760px) {
-    background-size: cover;
-  }
+  max-width:1400px;
+  margin: auto;
 `;
 const AppWrapper = styled.div`
   width: 85%;

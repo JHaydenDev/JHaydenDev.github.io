@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Route, Link } from "react-router-dom";
-import Contact from "./Contact/Contact"
+import Resume from "./Resume"
 import Projects from "./Projects/Projects";
 import Home from "./Home/Home";
 import styled from "styled-components";
@@ -46,11 +46,11 @@ class Body extends Component {
         <LinkWrapper>
           <StyledLink to="/">Home</StyledLink>
           <StyledLink to="/projects/">Projects</StyledLink>
-          <StyledLink to="/contact/">Contact</StyledLink>
+          <StyledLink to="/contact/">Resume</StyledLink>
         </LinkWrapper>
 
         <Route path="/" exact component={Home} />
-        <Route path="/contact/" component={Contact} />
+        <Route path="/contact/" component={Resume} />
         <Route path="/projects/" component={Projects} />
       </div>
     );

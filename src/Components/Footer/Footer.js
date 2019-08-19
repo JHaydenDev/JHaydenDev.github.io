@@ -6,6 +6,7 @@ import {
   faTwitter,
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
+import Contact from "./Contact/Contact";
 
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
@@ -61,6 +62,7 @@ class Footer extends Component {
           <p>Email<br/>josephhaydendevelopment<br/>@gmail.com</p>
           <p>Location<br/>Chicago, IL</p>
         </ContactInfo>
+        <Contact/>
         <SocialFollow>
           <h3>Follow me on social media!</h3>
           <div>
