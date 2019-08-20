@@ -2,11 +2,9 @@ import React from "react";
 import styled from "styled-components";
 
 const CardBox = styled.div`
-width:30%;
-
-@media (max-width: 760px) {
-    width:100%
-  }
+  width: 30%;
+  @media (max-width: 760px) {
+    width: 100%;
   }
 `;
 
@@ -23,12 +21,8 @@ height: auto;
 `;
 
 const TextBox = styled.div`
-height: 40%;
-padding-top:5%
-    >p{
-        overflow:hidden;
-    }
-  }
+  height: 40%;
+  padding-top: 5%;
 `;
 
 const LinkBox = styled.div`

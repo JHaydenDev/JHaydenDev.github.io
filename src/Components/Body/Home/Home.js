@@ -29,24 +29,17 @@ const Wrapper = styled.div`
   }
 `;
 
-const AboutPicture = styled.div`
-  margin:auto;
-  text-align: center;
-  background: url(${AboutMePic});
-  background-position: center;
-  height:46 rem;
-  min-height: 46vh;
-  background-repeat: no-repeat;
-  width: 48%;
-  background-size: 19rem;
-  
+const AboutPicture = styled.img`
+height: 52vh;
+border-radius: 100px;
+margin: auto;
 `;
 
 class Home extends Component {
   render() {
     return (
       <Wrapper>
-        <AboutPicture />
+        <AboutPicture src={AboutMePic} />
         <p>
           Hello, I'm Joseph Hayden. I am a front end developer and I am passonate
           about creating software that improves the daily lives of those around

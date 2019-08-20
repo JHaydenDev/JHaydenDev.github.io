@@ -6,17 +6,23 @@ import { HashRouter as Router } from "react-router-dom";
 import styled from "styled-components";
 import BackgroundImg from "./Background.jpg";
 import Footer from "./Components/Footer/Footer";
+import { Helmet } from 'react-helmet';
 
 const BackgroundLayer = styled.div`
   text-align: center;
-  background: url(${BackgroundImg});
-  color: white;
+  background: url(${BackgroundImg}) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  color: white;
   min-height: 100vh;
-  background-repeat: no-repeat;
   max-width:1400px;
   margin: auto;
 `;
+
+  
+
 const AppWrapper = styled.div`
   width: 85%;
   margin: auto;
@@ -28,6 +34,9 @@ class App extends Component {
   render() {
     return (
       <BackgroundLayer>
+        <Helmet>
+          <title>Joseph Hayden's Portfolio</title>
+        </Helmet>
         <AppWrapper>
           <Header />
           <Router basename='/'>

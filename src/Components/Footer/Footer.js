@@ -15,6 +15,7 @@ const Wrapper = styled.div`
   margin-top: 5%;
   display: flex;
   flex-direction: row;
+  
   justify-content: space-around;
   @media (max-width: 760px) {
     flex-direction:column;
@@ -29,6 +30,9 @@ const Wrapper = styled.div`
 const ContactInfo = styled.div`
 width: 45%;
 margin: auto;
+>p {
+  text-align: center;
+}
 @media (max-width: 600px) {
   width:auto;
 `;
