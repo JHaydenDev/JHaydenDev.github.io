@@ -63,7 +63,7 @@ const CardContainer = props => {
       </ImageBox>
       <TextBox>
         <h3>{props.project.heading}</h3>
-        <div>{props.project.description}</divy>
+        <div>{props.project.description}</div>
       </TextBox>
       <LinkBox>
         <StyledLink href={props.project.github}>Code</StyledLink>
