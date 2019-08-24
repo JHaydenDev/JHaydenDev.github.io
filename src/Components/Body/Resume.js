@@ -72,6 +72,15 @@ class Resume extends Component {
               office, and data entry.
             </p>
           </div>
+          <div>
+            <h3>Lambda School</h3>
+            <h4>Chicago, IL —Project Manager / Team Lead</h4>
+            <div>August 2019 - PRESENT</div>
+            <p>
+              Duties included managing students in an admin capacity, reviewing
+              code, leading stand ups, and running code challenges.
+            </p>
+          </div>
         </ResumeBox>
         <ResumeBox>
           <div>
