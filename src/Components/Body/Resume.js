@@ -41,7 +41,7 @@ class Resume extends Component {
             <h2>Work Experience</h2>
             <h3>All Quality Inc.</h3>
             <h4>Chicago, IL —Project Manager</h4>
-            <div>January 2018 - PRESENT</div>
+            <div>January 2018 - August 2019</div>
             <p>
               Duties included writing estimates and scopes of work, managing the
               subcontractors, overseeing job sites, interacting with clients,
