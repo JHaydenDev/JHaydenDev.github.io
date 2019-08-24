@@ -29,6 +29,15 @@ class Resume extends Component {
       <Wrapper>
         <ResumeBox>
           <div>
+            <h3>Lambda School</h3>
+            <h4>Chicago, IL —Project Manager / Team Lead</h4>
+            <div>August 2019 - PRESENT</div>
+            <p>
+              Duties included managing students in an admin capacity, reviewing
+              code, leading stand ups, and running code challenges.
+            </p>
+          </div>
+          <div>
             <h2>Work Experience</h2>
             <h3>All Quality Inc.</h3>
             <h4>Chicago, IL —Project Manager</h4>
@@ -70,15 +79,6 @@ class Resume extends Component {
               control, coordinating strategies to meet sales goals, training new
               hires, handling mass quantities of cash going in and out of the
               office, and data entry.
-            </p>
-          </div>
-          <div>
-            <h3>Lambda School</h3>
-            <h4>Chicago, IL —Project Manager / Team Lead</h4>
-            <div>August 2019 - PRESENT</div>
-            <p>
-              Duties included managing students in an admin capacity, reviewing
-              code, leading stand ups, and running code challenges.
             </p>
           </div>
         </ResumeBox>
