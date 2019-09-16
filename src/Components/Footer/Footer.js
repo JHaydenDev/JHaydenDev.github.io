@@ -62,7 +62,7 @@ class Footer extends Component {
     return (
       <Wrapper>
         <ContactInfo>
-          <h3>Contact Info</h3>
+          <h3>Contact Me</h3>
           <p>Email<br/>josephhaydendevelopment<br/>@gmail.com</p>
           <p>Location<br/>Chicago, IL</p>
         </ContactInfo>

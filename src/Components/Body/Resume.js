@@ -28,6 +28,7 @@ class Resume extends Component {
     return (
       <Wrapper>
         <ResumeBox>
+          <h2>Work Experience</h2>
           <div>
             <h3>Lambda School</h3>
             <h4>Chicago, IL —Project Manager / Team Lead</h4>
@@ -38,7 +39,6 @@ class Resume extends Component {
             </p>
           </div>
           <div>
-            <h2>Work Experience</h2>
             <h3>All Quality Inc.</h3>
             <h4>Chicago, IL —Project Manager</h4>
             <div>January 2018 - August 2019</div>
@@ -92,14 +92,14 @@ class Resume extends Component {
               </li>
               <li>Social Media advertising and profile management.</li>
               <li>Proficiency in Microsoft and Google suit.</li>
-              <li>Experience with Git.</li>
+              <li>Experience with Git workflow.</li>
               <li>Event planning and schedule making.</li>
               <li>Extensive Managerial and customer service skills.</li>
             </ul>
             <h2> GOALS</h2>
             <ul>
               <li>Grow more in Python</li>
-              <li>Help nonprofits with web development.</li>
+              <li>Work with nonprofits to improve thier web presence.</li>
               <li>Grow in UI/UX skills.</li>
             </ul>
             <div>
@@ -108,10 +108,6 @@ class Resume extends Component {
               <div>Chicago IL</div>
               <div>Front End Development</div>
               <div>2018-Present</div>
-              <h3>Chicago Python User Group Mentorship Program</h3>
-              <div>Chicago, IL</div>
-              <div>Python Development</div>
-              <div> 2019-Present</div>
             </div>
           </div>
         </ResumeBox>

@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 const CardBox = styled.div`
   width: 30%;
+  margin: 1%;
   @media (max-width: 760px) {
     width: 100%;
   }
@@ -10,7 +11,7 @@ const CardBox = styled.div`
 
 const ImageBox = styled.div`
 height: 40%;
-padding:5%;
+padding:3%;
   }
 `;
 
@@ -22,7 +23,7 @@ height: auto;
 
 const TextBox = styled.div`
   height: 40%;
-  padding-top: 5%;
+  padding: 4%;
 `;
 
 const LinkBox = styled.div`

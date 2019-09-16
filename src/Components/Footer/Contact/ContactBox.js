@@ -7,7 +7,7 @@ const Buttons = styled.button`
   background-color: Transparent;
   border: 1px solid white;
   margin: 5%;
-  padding:2%;
+  padding: 2%;
   &:hover {
     border: 1px solid aqua;
     color: aqua;
@@ -22,8 +22,8 @@ const ContactButton = styled.button`
   border: 1px solid white;
   margin: 5%;
   height: 150px;
-  width: 100px;g
-  padding:2%;
+  width: 100px;
+  gpadding: 2%;
   &:hover {
     border: 1px solid aqua;
     color: aqua;
@@ -144,7 +144,11 @@ class ContactBox extends Component {
     }
 
     if (this.state.showForm === false) {
-      return <ContactButton onClick={this.handleFormToggle}>Contact Form</ContactButton>;
+      return (
+        <ContactButton onClick={this.handleFormToggle}>
+          Contact Form
+        </ContactButton>
+      );
     }
 
     return (
