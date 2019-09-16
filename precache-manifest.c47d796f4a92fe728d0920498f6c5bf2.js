@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "93bf76a5dc5f3782df302a4c710a8d26",
+    "revision": "f466c1e6649f2ba92c6893ec12246026",
     "url": "/index.html"
   },
   {
-    "revision": "f426a96d00fe0d4b150d",
+    "revision": "efffd0737bf96972eabf",
     "url": "/static/css/main.9cf48b79.chunk.css"
   },
   {
-    "revision": "5299f61f69628842bd3c",
-    "url": "/static/js/2.204567b6.chunk.js"
+    "revision": "0f797d818b6158d99474",
+    "url": "/static/js/2.91d29c6d.chunk.js"
   },
   {
-    "revision": "f426a96d00fe0d4b150d",
-    "url": "/static/js/main.17e78d3c.chunk.js"
+    "revision": "efffd0737bf96972eabf",
+    "url": "/static/js/main.61ac2fe9.chunk.js"
   },
   {
     "revision": "e676c0768ba9136fc741",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c6aff72d789e6385b397790c94785e62",
     "url": "/static/media/DungeonHelper.c6aff72d.png"
+  },
+  {
+    "revision": "489cd9d28eb7801f7a0d953ae087f5ce",
+    "url": "/static/media/PeacefulHomePage.489cd9d2.png"
   },
   {
     "revision": "6aaa68c20338bd284058eebfbe547263",
