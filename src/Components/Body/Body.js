@@ -18,7 +18,7 @@ const StyledLink = styled(Link)`
     transition: 0.3s;
     box-shadow: 0 5px 15px rgba(0,0,0,1);
   }
-  @media (max-width: 760px) {
+  @media (max-width: 850px) {
     width:80%;
     margin: 1% auto;
   }
@@ -33,7 +33,7 @@ const LinkWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  @media (max-width: 760px) {
+  @media (max-width: 850px) {
     display:flex;
     flex-direction:column;
   }

@@ -4,7 +4,8 @@ import styled from "styled-components";
 const CardBox = styled.div`
   width: 30%;
   margin: 1%;
-  @media (max-width: 760px) {
+
+  @media (max-width: 850px) {
     width: 100%;
   }
 `;
@@ -18,19 +19,22 @@ padding:3%;
 const Image = styled.img`
 width: 90%;
 height: auto;
+max-height: 100%;
+min-height: 100%;
   }
 `;
 
 const TextBox = styled.div`
   height: 40%;
   padding: 4%;
+  text-overflow: ellipsis;
 `;
 
 const LinkBox = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space Around;
-  @media (max-width: 760px) {
+  @media (max-width: 850px) {
     flex-direction: column;
   }
 `;
@@ -49,7 +53,7 @@ const StyledLink = styled.a`
     box-shadow: 0 5px 15px rgba(0,0,0,1);
   }
   
-  @media (max-width: 760px) {
+  @media (max-width: 850px) {
     width:90%;
     margin: 1% auto;
   }

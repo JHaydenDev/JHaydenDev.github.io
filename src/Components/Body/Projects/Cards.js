@@ -7,7 +7,7 @@ display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-around;
-@media (max-width: 760px) {
+@media (max-width: 850px) {
     display:flex;
     flex-direction:column;
   }
@@ -25,3 +25,4 @@ const Card = props => {
 };
 
 export default Card;
+

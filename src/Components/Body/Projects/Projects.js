@@ -5,6 +5,7 @@ import PortfolioPageImg from "./PortfolioPage.png";
 import DevDeskQImg from "./DevDeskQ.png";
 import DungeonHelperImg from "./DungeonHelper.png";
 import PeacefulHomePage from "./PeacefulHomePage.png";
+import GitHubFavorites from "./GitHubFavorites.png";
 
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
@@ -14,7 +15,7 @@ const Wrapper = styled.div`
   padding-top: 2%;
   padding-bottom: 2%;
   min-height: 50vh;
-  @media (max-width: 760px) {
+  @media (max-width: 850px) {
     flex-direction: column;
     align-items: center;
     width: 100%;
@@ -56,9 +57,17 @@ class Projects extends Component {
           image: PeacefulHomePage,
           heading: "Peaceful Home Page",
           description:
-            "Peaceful Home Page is an app that you can set as your home page and will have your location, weather with changing background, google searchbar, youtube window, note taking component.  Under Development",
+            "Peaceful Home Page is home page app that has your location, weather, google search, etc. Under Development",
           github: "https://github.com/JHaydenDev/PeacefulHomePage",
           hosted: "https://jhaydendev.github.io/PeacefulHomePage/"
+        },
+        {
+          image: GitHubFavorites,
+          heading: "GitHub Favorites",
+          description:
+            "GitHub Favorites is a simple app that uses the github api to pull information on a GitHub profile and save it.",
+          github: "https://github.com/Buildweek-Github-User-Breakdown",
+          hosted: "https://githubfavorites.netlify.com/"
         }
       ]
     };
