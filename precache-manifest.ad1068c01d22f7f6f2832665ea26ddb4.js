@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dac9113fce9faef0d4cc09837974ad71",
+    "revision": "ed6316b62be87dadb9dca3b059d4a9dd",
     "url": "/index.html"
   },
   {
-    "revision": "b1fefb8e9177392d50bd",
+    "revision": "22867f84d9f268f1413d",
     "url": "/static/css/main.9cf48b79.chunk.css"
   },
   {
-    "revision": "0f797d818b6158d99474",
-    "url": "/static/js/2.91d29c6d.chunk.js"
+    "revision": "a5e5565e03d31ae3f1bc",
+    "url": "/static/js/2.5f68d507.chunk.js"
   },
   {
-    "revision": "b1fefb8e9177392d50bd",
-    "url": "/static/js/main.b7442278.chunk.js"
+    "revision": "22867f84d9f268f1413d",
+    "url": "/static/js/main.a45adf51.chunk.js"
   },
   {
     "revision": "e676c0768ba9136fc741",
@@ -34,6 +34,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c6aff72d789e6385b397790c94785e62",
     "url": "/static/media/DungeonHelper.c6aff72d.png"
+  },
+  {
+    "revision": "a29d5a758de650e9586d1ed59c6d69ab",
+    "url": "/static/media/GitHubFavorites.a29d5a75.png"
   },
   {
     "revision": "489cd9d28eb7801f7a0d953ae087f5ce",
