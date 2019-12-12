@@ -43,7 +43,7 @@ class Projects extends Component {
           description:
             "Dev Desk Queue is a ticketing system for Devs with CRUD functionality",
           github: "https://github.com/JHaydenDev/Front-End",
-          hosted: "https://devdeskqueue.com"
+          hosted: "https://devdesk-q.netlify.com/"
         },
         {
           image: DungeonHelperImg,
