@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bb81a0bf2cb2ddc02a33784ffb0932ae",
+    "revision": "8eb20b9cb6875cedb1432e94219075da",
     "url": "/index.html"
   },
   {
-    "revision": "2470b20c3d135f8e7b25",
+    "revision": "8e31b8ddb6698be2ee03",
     "url": "/static/css/main.9cf48b79.chunk.css"
   },
   {
-    "revision": "a5e5565e03d31ae3f1bc",
-    "url": "/static/js/2.5f68d507.chunk.js"
+    "revision": "61e344258dd41050d953",
+    "url": "/static/js/2.df99fcf2.chunk.js"
   },
   {
-    "revision": "2470b20c3d135f8e7b25",
-    "url": "/static/js/main.837e757e.chunk.js"
+    "revision": "8e31b8ddb6698be2ee03",
+    "url": "/static/js/main.59ef205c.chunk.js"
   },
   {
     "revision": "e676c0768ba9136fc741",
@@ -38,6 +38,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a29d5a758de650e9586d1ed59c6d69ab",
     "url": "/static/media/GitHubFavorites.a29d5a75.png"
+  },
+  {
+    "revision": "6825e4da48f08a00588907107aaa3ecc",
+    "url": "/static/media/LyfeLoggerImg.6825e4da.png"
   },
   {
     "revision": "489cd9d28eb7801f7a0d953ae087f5ce",
