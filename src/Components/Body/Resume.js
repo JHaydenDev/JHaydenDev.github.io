@@ -34,8 +34,8 @@ class Resume extends Component {
             <h4>Chicago, IL —Project Manager / Team Lead</h4>
             <div>August 2019 - PRESENT</div>
             <p>
-              Duties included managing students in an admin capacity, reviewing
-              code, leading stand ups, and running code challenges.
+              Duties: Managing students in an admin capacity, reviewing code,
+              leading stand ups, and running code challenges.
             </p>
           </div>
           <div>
@@ -43,7 +43,7 @@ class Resume extends Component {
             <h4>Chicago, IL —Project Manager</h4>
             <div>January 2018 - August 2019</div>
             <p>
-              Duties included writing estimates and scopes of work, managing the
+              Duties: Writing estimates / scopes of work, managing the
               subcontractors, overseeing job sites, interacting with clients,
               etc.
             </p>
@@ -53,8 +53,8 @@ class Resume extends Component {
             <h4>Chicago, IL —Team Captain</h4>
             <div>July. 2017 - January 2018</div>
             <p>
-              Responsibilities here involved job tracking, route tracking and
-              planning, and transportation of customer's inventory.
+              Duties: Job tracking, route tracking and planning, and
+              transportation of customer's inventory.
             </p>
           </div>
           <div>
@@ -62,10 +62,10 @@ class Resume extends Component {
             <h4>Chicago, IL —Office Manager</h4>
             <div>June 2016 - July 2017</div>
             <p>
-              Responsibilities included scheduling for everyone in the company,
-              ordering supplies and parts, new hire onboarding, managing the
-              company’s advertising portfolio, social media outreach, and a
-              variety of other managerial duties.
+              Duties: Scheduling for everyone in the company, ordering supplies
+              and parts, new hire onboarding, managing the company’s advertising
+              portfolio, social media outreach, and a variety of other
+              managerial duties.
             </p>
           </div>
           <div>
@@ -73,8 +73,8 @@ class Resume extends Component {
             <h4>Chicago, IL—Assistant Sales Manager</h4>
             <div>Dec. 2014 - Nov. 2016</div>
             <p>
-              Duties included tracking inventory of merchandise, supervising
-              vendors, working out logistics of arenas for loading in and out,
+              Duties: Tracking inventory of merchandise, supervising vendors,
+              working out the logistics of arenas for loading in and out,
               coordinating flights and hotels, handling customer issues, quality
               control, coordinating strategies to meet sales goals, training new
               hires, handling mass quantities of cash going in and out of the
@@ -84,13 +84,10 @@ class Resume extends Component {
         </ResumeBox>
         <ResumeBox>
           <div>
-            <h2> SKILLS</h2>
+            <h2>SKILLS/TECHNOLOGIES</h2>
             <ul>
-              <li>
-                Experience with HTML5, CSS, SASS, Javascript, ReactJS, Redux,
-                Axios.
-              </li>
-              <li>Social Media advertising and profile management.</li>
+              <li>HTML5, CSS, SASS, Javascript, ReactJS, Redux, Axios.</li>
+              <li>NodeJS, SQL, Express.</li>
               <li>Proficiency in Microsoft and Google suit.</li>
               <li>Experience with Git workflow.</li>
               <li>Event planning and schedule making.</li>
@@ -98,9 +95,12 @@ class Resume extends Component {
             </ul>
             <h2> GOALS</h2>
             <ul>
-              <li>Grow more in Python</li>
-              <li>Work with nonprofits to improve thier web presence.</li>
-              <li>Grow in UI/UX skills.</li>
+              <li>Learn new front end libraries and frameworks.</li>
+              <li>Develop a Python based backend.</li>
+              <li>
+                Continue to learn new programming concepts along with UI/UX
+                design.
+              </li>
             </ul>
             <div>
               <h2>EDUCATION</h2>

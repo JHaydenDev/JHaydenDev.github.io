@@ -6,6 +6,7 @@ import DevDeskQImg from "./DevDeskQ.png";
 import DungeonHelperImg from "./DungeonHelper.png";
 import PeacefulHomePage from "./PeacefulHomePage.png";
 import GitHubFavorites from "./GitHubFavorites.png";
+import LyfeLoggerImg from "./LyfeLoggerImg.png"
 
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
@@ -30,12 +31,12 @@ class Projects extends Component {
     this.state = {
       projects: [
         {
-          image: PortfolioPageImg,
-          heading: "Portfolio Page",
+          image: LyfeLoggerImg,
+          heading: "Lyfe Logger",
           description:
-            "This portfolio page was created using ReactJS, React Router, Styled Components, and HTML5",
-          github: "https://github.com/JHaydenDev/JHaydenDev.github.io",
-          hosted: "https://jhaydendev.github.io"
+            "Organize all the things about life that are irregular. The things you forget to do. Change your oil, rotate your tires, replace your AC air filter. Home, auto, other maintenance tasks. Log events, later searchable so you can remember when/where/what you did. ",
+          github: "https://github.com/Lambda-School-Labs/life-logger-fe",
+          hosted: "lyfe-logger.com",
         },
         {
           image: DevDeskQImg,
@@ -43,7 +44,7 @@ class Projects extends Component {
           description:
             "Dev Desk Queue is a ticketing system for Devs with CRUD functionality",
           github: "https://github.com/JHaydenDev/Front-End",
-          hosted: "https://devdesk-q.netlify.com/"
+          hosted: "https://devdesk-q.netlify.com/",
         },
         {
           image: DungeonHelperImg,
@@ -51,7 +52,7 @@ class Projects extends Component {
           description:
             "Dungeon Helper is a encounter generator for Dungeons and Dragons.",
           github: "https://github.com/JHaydenDev/dnd-encounter-generator",
-          hosted: "https://dungeon-helper.com"
+          hosted: "https://jovial-edison-b9bb64.netlify.com",
         },
         {
           image: PeacefulHomePage,
@@ -59,7 +60,7 @@ class Projects extends Component {
           description:
             "Peaceful Home Page is home page app that has your location, weather, google search, etc. Under Development",
           github: "https://github.com/JHaydenDev/PeacefulHomePage",
-          hosted: "https://jhaydendev.github.io/PeacefulHomePage/"
+          hosted: "https://jhaydendev.github.io/PeacefulHomePage/",
         },
         {
           image: GitHubFavorites,
@@ -67,9 +68,17 @@ class Projects extends Component {
           description:
             "GitHub Favorites is a simple app that uses the github api to pull information on a GitHub profile and save it.",
           github: "https://github.com/Buildweek-Github-User-Breakdown",
-          hosted: "https://githubfavorites.netlify.com/"
+          hosted: "https://admiring-mirzakhani-d0e93c.netlify.com/",
+        },
+        {
+          image: PortfolioPageImg,
+          heading: "Portfolio Page",
+          description:
+            "This portfolio page was created using ReactJS, React Router, Styled Components, and HTML5",
+          github: "https://github.com/JHaydenDev/JHaydenDev.github.io",
+          hosted: "https://jhaydendev.github.io",
         }
-      ]
+      ],
     };
   }
 

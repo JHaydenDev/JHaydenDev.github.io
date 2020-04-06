@@ -17,7 +17,6 @@ const BackgroundLayer = styled.div`
   background-size: cover;
   color: white;
   min-height: 100vh;
-  max-width:1400px;
   margin: auto;
 `;
 
