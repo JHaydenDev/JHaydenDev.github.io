@@ -36,7 +36,7 @@ class Projects extends Component {
           description:
             "Organize all the things about life that are irregular. The things you forget to do. Change your oil, rotate your tires, replace your AC air filter. Home, auto, other maintenance tasks. Log events, later searchable so you can remember when/where/what you did. ",
           github: "https://github.com/Lambda-School-Labs/life-logger-fe",
-          hosted: "lyfe-logger.com",
+          hosted: "https://lyfe-logger-fe.herokuapp.com/",
         },
         {
           image: DevDeskQImg,
