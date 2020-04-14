@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import styled from "styled-components";
 import AboutMePic from "./AboutMePic.jpg";
+import Fade from "react-reveal/Fade";
 
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
@@ -13,9 +14,9 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row;
   @media (max-width: 760px) {
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
-    width:100%; 
+    width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
   }
@@ -30,23 +31,25 @@ const Wrapper = styled.div`
 `;
 
 const AboutPicture = styled.img`
-height: 52vh;
-border-radius: 100px;
-margin: auto;
+  height: 52vh;
+  border-radius: 100px;
+  margin: auto;
 `;
 
 class Home extends Component {
   render() {
     return (
-      <Wrapper>
-        <AboutPicture src={AboutMePic} />
-        <p>
-          Hello, I'm Joseph Hayden. I am a front end developer and I am passionate
-          about creating software that improves the daily lives of those around
-          me. I like to create sites with clear cut ease of use and
-          responsive design.
-        </p>
-      </Wrapper>
+      <Fade cascade>
+        <Wrapper>
+          <AboutPicture src={AboutMePic} />
+          <p>
+            Hello, I'm Joseph Hayden. I am a front end developer and I am
+            passionate about creating software that improves the daily lives of
+            those around me. I like to create sites with clear cut ease of use
+            and responsive design.
+          </p>
+        </Wrapper>
+      </Fade>
     );
   }
 }

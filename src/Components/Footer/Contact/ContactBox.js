@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import axios from "axios";
 import styled from "styled-components";
+import Fade from "react-reveal/Fade";
 
 const Buttons = styled.button`
   color: white;
@@ -144,15 +145,17 @@ class ContactBox extends Component {
     }
 
     if (this.state.showForm === false) {
-      return (
+      return (   <Fade cascade>
         <ContactButton onClick={this.handleFormToggle}>
           Contact Form
         </ContactButton>
+        </Fade>
       );
     }
 
     return (
       <React.Fragment>
+            <Fade cascade>
         <div>
           <form onSubmit={this.handleSubmit}>
             <div>
@@ -192,6 +195,7 @@ class ContactBox extends Component {
             </div>
           </form>
         </div>
+        </Fade>
       </React.Fragment>
     );
   }

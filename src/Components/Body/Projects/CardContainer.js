@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Fade from "react-reveal/Fade";
 
 const CardBox = styled.div`
   width: 30%;
@@ -63,6 +64,7 @@ const CardContainer = props => {
   console.log(props);
   return (
     <CardBox>
+        <Fade cascade>
       <ImageBox>
         <Image src={props.project.image} alt="" className="project-thumb" />
       </ImageBox>
@@ -74,6 +76,7 @@ const CardContainer = props => {
         <StyledLink href={props.project.github}>Code</StyledLink>
         <StyledLink href={props.project.hosted}>Hosted</StyledLink>
       </LinkBox>
+      </Fade>
     </CardBox>
   );
 };

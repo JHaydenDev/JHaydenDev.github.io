@@ -7,6 +7,7 @@ import {
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
 import Contact from "./Contact/Contact";
+import Fade from "react-reveal/Fade";
 
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
@@ -60,6 +61,7 @@ const SocialIcon = styled.a`
 class Footer extends Component {
   render() {
     return (
+      <Fade cascade>
       <Wrapper>
         <ContactInfo>
           <h3>Contact Me</h3>
@@ -82,6 +84,7 @@ class Footer extends Component {
           </div>
         </SocialFollow>
       </Wrapper>
+      </Fade>
     );
   }
 }

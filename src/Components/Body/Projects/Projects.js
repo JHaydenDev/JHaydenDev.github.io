@@ -8,6 +8,7 @@ import PeacefulHomePage from "./PeacefulHomePage.png";
 import GitHubFavorites from "./GitHubFavorites.png";
 import LyfeLoggerImg from "./LyfeLoggerImg.png"
 
+
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
   background: rgba(0, 0, 0, 0.5);
