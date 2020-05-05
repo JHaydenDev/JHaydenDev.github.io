@@ -7,7 +7,7 @@ import styled from "styled-components";
 
 const StyledLink = styled(Link)`
   color: white;
-  width:27%;
+  width:23%;
   margin:1%;
   text-decoration: none;
   padding: 2%;
