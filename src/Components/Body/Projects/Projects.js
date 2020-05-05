@@ -6,8 +6,7 @@ import DevDeskQImg from "./DevDeskQ.png";
 import DungeonHelperImg from "./DungeonHelper.png";
 import PeacefulHomePage from "./PeacefulHomePage.png";
 import GitHubFavorites from "./GitHubFavorites.png";
-import LyfeLoggerImg from "./LyfeLoggerImg.png"
-
+import LyfeLoggerImg from "./LyfeLoggerImg.png";
 
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
@@ -35,7 +34,7 @@ class Projects extends Component {
           image: LyfeLoggerImg,
           heading: "Lyfe Logger",
           description:
-            "Organize all the things about life that are irregular. The things you forget to do. Change your oil, rotate your tires, replace your AC air filter. Home, auto, other maintenance tasks. Log events, later searchable so you can remember when/where/what you did. ",
+            "Lyfe Logger is a task / event tracking app with full CRUD functionality, working calendar, and full featured UI",
           github: "https://github.com/Lambda-School-Labs/life-logger-fe",
           hosted: "https://lyfe-logger-fe.herokuapp.com/",
         },
@@ -78,7 +77,7 @@ class Projects extends Component {
             "This portfolio page was created using ReactJS, React Router, Styled Components, and HTML5",
           github: "https://github.com/JHaydenDev/JHaydenDev.github.io",
           hosted: "https://jhaydendev.github.io",
-        }
+        },
       ],
     };
   }

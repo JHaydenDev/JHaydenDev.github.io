@@ -3,30 +3,43 @@ import styled from "styled-components";
 import Fade from "react-reveal/Fade";
 
 const CardBox = styled.div`
+  align-self: center;
   width: 30%;
-  margin: 1%;
-
+  margin: 1% 1%;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid white;
   @media (max-width: 850px) {
-    width: 100%;
+    width: 95%;
+    height:auto;
   }
 `;
 
 const ImageBox = styled.div`
-height: 40%;
 padding:3%;
+@media (max-width: 850px) {
+  width: 95%;
+  
+  
+}
   }
 `;
 
 const Image = styled.img`
-width: 90%;
-height: auto;
-max-height: 100%;
-min-height: 100%;
+max-width: -webkit-fill-available;
+height:230px;
+@media (max-width: 850px) {
+  height: auto
+  width:95%
+  margin:2%
+}
   }
 `;
 
 const TextBox = styled.div`
-  height: 40%;
+  height: 250 px;
   padding: 4%;
   text-overflow: ellipsis;
 `;
@@ -60,22 +73,22 @@ const StyledLink = styled.a`
   }
 `;
 
-const CardContainer = props => {
+const CardContainer = (props) => {
   console.log(props);
   return (
     <CardBox>
-        <Fade cascade>
-      <ImageBox>
-        <Image src={props.project.image} alt="" className="project-thumb" />
-      </ImageBox>
-      <TextBox>
-        <h3>{props.project.heading}</h3>
-        <div>{props.project.description}</div>
-      </TextBox>
-      <LinkBox>
-        <StyledLink href={props.project.github}>Code</StyledLink>
-        <StyledLink href={props.project.hosted}>Hosted</StyledLink>
-      </LinkBox>
+      <Fade cascade>
+        <ImageBox>
+          <Image src={props.project.image} alt="" className="project-thumb" />
+        </ImageBox>
+        <TextBox>
+          <h3>{props.project.heading}</h3>
+          <div>{props.project.description}</div>
+        </TextBox>
+        <LinkBox>
+          <StyledLink href={props.project.github}>Code</StyledLink>
+          <StyledLink href={props.project.hosted}>Hosted</StyledLink>
+        </LinkBox>
       </Fade>
     </CardBox>
   );

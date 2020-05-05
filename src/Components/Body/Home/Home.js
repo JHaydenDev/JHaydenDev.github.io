@@ -36,18 +36,37 @@ const AboutPicture = styled.img`
   margin: auto;
 `;
 
+const Card = styled.p`
+  border: 1px solid white;
+  padding:7%;
+  &:hover {
+    border: 1px solid aqua;
+    color: aqua;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+  }
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  }
+`;
+
 class Home extends Component {
   render() {
     return (
       <Fade cascade>
         <Wrapper>
           <AboutPicture src={AboutMePic} />
-          <p>
+          <Card>
             Hello, I'm Joseph Hayden. I am a front end developer and I am
             passionate about creating software that improves the daily lives of
             those around me. I like to create sites with clear cut ease of use
             and responsive design.
-          </p>
+          </Card>
         </Wrapper>
       </Fade>
     );

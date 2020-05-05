@@ -23,8 +23,8 @@ const ContactButton = styled.button`
   border: 1px solid white;
   margin: 5%;
   height: 150px;
-  width: 100px;
-  gpadding: 2%;
+  width: 200px;
+  padding: 2%;
   &:hover {
     border: 1px solid aqua;
     color: aqua;
