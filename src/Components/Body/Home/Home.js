@@ -26,6 +26,7 @@ const Wrapper = styled.div`
     margin: auto;
     @media (max-width: 760px) {
       padding-top: 5%;
+      margin-top: 5%
     }
   }
 `;
@@ -49,6 +50,7 @@ const Card = styled.p`
     flex-direction: column;
     align-items: center;
     width: 100%;
+  
     padding-top: 5%;
     padding-bottom: 5%;
   }
