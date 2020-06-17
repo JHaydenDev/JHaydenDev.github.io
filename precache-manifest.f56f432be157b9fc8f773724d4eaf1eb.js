@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bd5672324ed561850c566cfec91bd55b",
+    "revision": "3036cfc2283549749ba20dc782206229",
     "url": "/index.html"
   },
   {
-    "revision": "2da56bdf26b5730dd2d0",
+    "revision": "88613baf50864abc4fd6",
     "url": "/static/css/main.8bc2419b.chunk.css"
   },
   {
-    "revision": "21ac4ed483481470bb52",
-    "url": "/static/js/2.0d0226ab.chunk.js"
+    "revision": "519b170de4d2605010e0",
+    "url": "/static/js/2.dd0602a7.chunk.js"
   },
   {
-    "revision": "2da56bdf26b5730dd2d0",
-    "url": "/static/js/main.c56ccc26.chunk.js"
+    "revision": "88613baf50864abc4fd6",
+    "url": "/static/js/main.1993692f.chunk.js"
   },
   {
     "revision": "1d1b3cc69d9575ddb6e0",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6aaa68c20338bd284058eebfbe547263",
     "url": "/static/media/PortfolioPage.6aaa68c2.png"
+  },
+  {
+    "revision": "ee65efbdfe1d61a493ff1525d4717e6d",
+    "url": "/static/media/StemTheTide.ee65efbd.png"
   },
   {
     "revision": "5cf73aeb876a91ff9cdb7facb7fd6f7f",

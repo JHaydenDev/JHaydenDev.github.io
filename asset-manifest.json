@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.8bc2419b.chunk.css",
-    "main.js": "/static/js/main.c56ccc26.chunk.js",
-    "main.js.map": "/static/js/main.c56ccc26.chunk.js.map",
+    "main.js": "/static/js/main.1993692f.chunk.js",
+    "main.js.map": "/static/js/main.1993692f.chunk.js.map",
     "runtime~main.js": "/static/js/runtime~main.1fa1b8a2.js",
     "runtime~main.js.map": "/static/js/runtime~main.1fa1b8a2.js.map",
-    "static/js/2.0d0226ab.chunk.js": "/static/js/2.0d0226ab.chunk.js",
-    "static/js/2.0d0226ab.chunk.js.map": "/static/js/2.0d0226ab.chunk.js.map",
+    "static/js/2.dd0602a7.chunk.js": "/static/js/2.dd0602a7.chunk.js",
+    "static/js/2.dd0602a7.chunk.js.map": "/static/js/2.dd0602a7.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3704294e6a7ff640b2f2b1e13a36e194.js": "/precache-manifest.3704294e6a7ff640b2f2b1e13a36e194.js",
+    "precache-manifest.f56f432be157b9fc8f773724d4eaf1eb.js": "/precache-manifest.f56f432be157b9fc8f773724d4eaf1eb.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.8bc2419b.chunk.css.map": "/static/css/main.8bc2419b.chunk.css.map",
     "static/media/AboutMePic.jpg": "/static/media/AboutMePic.51b7c294.jpg",
@@ -19,6 +19,7 @@
     "static/media/LyfeLoggerImg.png": "/static/media/LyfeLoggerImg.6825e4da.png",
     "static/media/PeacefulHomePage.png": "/static/media/PeacefulHomePage.489cd9d2.png",
     "static/media/PortfolioPage.png": "/static/media/PortfolioPage.6aaa68c2.png",
+    "static/media/StemTheTide.png": "/static/media/StemTheTide.ee65efbd.png",
     "static/media/VeganMeats.png": "/static/media/VeganMeats.5cf73aeb.png"
   }
 }
