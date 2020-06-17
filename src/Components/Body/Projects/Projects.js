@@ -7,6 +7,7 @@ import DungeonHelperImg from "./DungeonHelper.png";
 import PeacefulHomePage from "./PeacefulHomePage.png";
 import GitHubFavorites from "./GitHubFavorites.png";
 import LyfeLoggerImg from "./LyfeLoggerImg.png";
+import VeganMeats from "./VeganMeats.png";
 
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
@@ -53,6 +54,14 @@ class Projects extends Component {
             "Dungeon Helper is a encounter generator for Dungeons and Dragons.",
           github: "https://github.com/JHaydenDev/dnd-encounter-generator",
           hosted: "https://jovial-edison-b9bb64.netlify.com",
+        },
+        {
+          image: VeganMeats,
+          heading: "VeganMeets",
+          description:
+            "Vegan Meets is a place to find, add, and rate vegan restaurants",
+          github: "https://github.com/Web26-veganmeats",
+          hosted: "https://fe-xi-tan.now.sh/login/",
         },
         {
           image: PeacefulHomePage,
