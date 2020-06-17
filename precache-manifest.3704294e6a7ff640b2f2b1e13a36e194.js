@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cc888bf1c3eb8e5dfcda1d8c69958c6a",
+    "revision": "bd5672324ed561850c566cfec91bd55b",
     "url": "/index.html"
   },
   {
-    "revision": "d0a7922cd0260bdd4981",
+    "revision": "2da56bdf26b5730dd2d0",
     "url": "/static/css/main.8bc2419b.chunk.css"
   },
   {
-    "revision": "c12a6a07841e891ce709",
-    "url": "/static/js/2.42fbad42.chunk.js"
+    "revision": "21ac4ed483481470bb52",
+    "url": "/static/js/2.0d0226ab.chunk.js"
   },
   {
-    "revision": "d0a7922cd0260bdd4981",
-    "url": "/static/js/main.95fdafa1.chunk.js"
+    "revision": "2da56bdf26b5730dd2d0",
+    "url": "/static/js/main.c56ccc26.chunk.js"
   },
   {
     "revision": "1d1b3cc69d9575ddb6e0",
@@ -50,5 +50,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6aaa68c20338bd284058eebfbe547263",
     "url": "/static/media/PortfolioPage.6aaa68c2.png"
+  },
+  {
+    "revision": "5cf73aeb876a91ff9cdb7facb7fd6f7f",
+    "url": "/static/media/VeganMeats.5cf73aeb.png"
   }
 ]);
