@@ -8,6 +8,8 @@ import PeacefulHomePage from "./PeacefulHomePage.png";
 import GitHubFavorites from "./GitHubFavorites.png";
 import LyfeLoggerImg from "./LyfeLoggerImg.png";
 import VeganMeats from "./VeganMeats.png";
+import StemTheTide from "./StemTheTide.png";
+
 
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
@@ -62,6 +64,13 @@ class Projects extends Component {
             "Vegan Meets is a place to find, add, and rate vegan restaurants",
           github: "https://github.com/Web26-veganmeats",
           hosted: "https://fe-xi-tan.now.sh/login/",
+        },
+        {
+          image: StemTheTide,
+          heading: "Stem The Tide",
+          description:"Stem the tide is an informational site for an alternative game format for Magic The Gathering.  This is currently under development",
+          github: "https://github.com/JHaydenDev/Stem-the-tide",
+          hosted: "https://serene-wiles-bb2f2b.netlify.app/register",
         },
         {
           image: PeacefulHomePage,
