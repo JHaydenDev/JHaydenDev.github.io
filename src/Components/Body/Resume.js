@@ -54,6 +54,15 @@ class Resume extends Component {
             <h2>WORK EXPERIENCE</h2>
             <Card>
               <div>
+                <h3>Unify</h3>
+                <h4>Chicago, IL —Fullstack Developer</h4>
+                <div>July 2020 - PRESENT</div>
+                <p>
+                  Duties: Developing front end tools using JavaScript, React,
+                  Redux, Sagas, etc. Develop backend using PHP and Laravel.
+                </p>
+              </div>
+              <div>
                 <h3>Lambda School</h3>
                 <h4>Chicago, IL —Project Manager / Team Lead</h4>
                 <div>August 2019 - PRESENT</div>
@@ -62,7 +71,6 @@ class Resume extends Component {
                   code, leading stand ups, and running code challenges.
                 </p>
               </div>
-
               <div>
                 <h3>All Quality Inc.</h3>
                 <h4>Chicago, IL —Project Manager</h4>
@@ -73,7 +81,6 @@ class Resume extends Component {
                   clients, etc.
                 </p>
               </div>
-
               <div>
                 <h3>MakeSpace Labs</h3>
                 <h4>Chicago, IL —Team Captain</h4>
@@ -83,7 +90,6 @@ class Resume extends Component {
                   transportation of customer's inventory.
                 </p>
               </div>
-
               <div>
                 <h3>Fabian and Son Heating and Cooling</h3>
                 <h4>Chicago, IL —Office Manager</h4>
@@ -95,7 +101,6 @@ class Resume extends Component {
                   variety of other managerial duties.
                 </p>
               </div>
-
               <div>
                 <h3>Feld Entertainment</h3>
                 <h4>Chicago, IL—Assistant Sales Manager</h4>
