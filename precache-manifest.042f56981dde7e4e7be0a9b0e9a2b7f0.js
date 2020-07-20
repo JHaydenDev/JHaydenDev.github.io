@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f39ea1be24d33d511948f82eb11c4a77",
+    "revision": "baa78e78be3257fc625d014f123d42c7",
     "url": "/index.html"
   },
   {
-    "revision": "3702cabc50264ea58f58",
+    "revision": "b37fb64088a53af1a53f",
     "url": "/static/css/main.8bc2419b.chunk.css"
   },
   {
-    "revision": "519b170de4d2605010e0",
-    "url": "/static/js/2.dd0602a7.chunk.js"
+    "revision": "5ca5675569b5d6b827ff",
+    "url": "/static/js/2.007dbcd2.chunk.js"
   },
   {
-    "revision": "3702cabc50264ea58f58",
-    "url": "/static/js/main.1f98e728.chunk.js"
+    "revision": "b37fb64088a53af1a53f",
+    "url": "/static/js/main.f6504ba2.chunk.js"
   },
   {
     "revision": "1d1b3cc69d9575ddb6e0",
@@ -50,6 +50,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "6aaa68c20338bd284058eebfbe547263",
     "url": "/static/media/PortfolioPage.6aaa68c2.png"
+  },
+  {
+    "revision": "4c9c646a1ff06d69094b7d01944b18d5",
+    "url": "/static/media/PrimativeQuiz.4c9c646a.png"
   },
   {
     "revision": "ee65efbdfe1d61a493ff1525d4717e6d",
