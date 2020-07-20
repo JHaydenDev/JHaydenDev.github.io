@@ -9,7 +9,7 @@ import GitHubFavorites from "./GitHubFavorites.png";
 import LyfeLoggerImg from "./LyfeLoggerImg.png";
 import VeganMeats from "./VeganMeats.png";
 import StemTheTide from "./StemTheTide.png";
-
+import PrimativeQuiz from "./PrimativeQuiz.png";
 
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
@@ -34,12 +34,28 @@ class Projects extends Component {
     this.state = {
       projects: [
         {
+          image: PrimativeQuiz,
+          heading: "Primative Quiz",
+          description:
+            "We built an API using Node.js and a front end UI using React.js which dynamically rendered results and emailed said results to the user.",
+          github: "#",
+          hosted: "https://immense-eyrie-45216.herokuapp.com/#/",
+        },
+        {
           image: LyfeLoggerImg,
           heading: "Lyfe Logger",
           description:
             "Lyfe Logger is a task / event tracking app with full CRUD functionality, working calendar, and full featured UI",
           github: "https://github.com/Lambda-School-Labs/life-logger-fe",
           hosted: "https://lyfe-logger-fe.herokuapp.com/",
+        },
+        {
+          image: VeganMeats,
+          heading: "VeganMeets",
+          description:
+            "Vegan Meets is a place to find, add, and rate vegan restaurants",
+          github: "https://github.com/Web26-veganmeats",
+          hosted: "https://fe-xi-tan.now.sh/",
         },
         {
           image: DevDeskQImg,
@@ -57,29 +73,13 @@ class Projects extends Component {
           github: "https://github.com/JHaydenDev/dnd-encounter-generator",
           hosted: "https://jovial-edison-b9bb64.netlify.com",
         },
-        {
-          image: VeganMeats,
-          heading: "VeganMeets",
-          description:
-            "Vegan Meets is a place to find, add, and rate vegan restaurants",
-          github: "https://github.com/Web26-veganmeats",
-          hosted: "https://fe-xi-tan.now.sh/login/",
-        },
-        {
-          image: StemTheTide,
-          heading: "Stem The Tide",
-          description:"Stem the tide is an informational site for an alternative game format for Magic The Gathering.  This is currently under development",
-          github: "https://github.com/JHaydenDev/Stem-the-tide",
-          hosted: "https://serene-wiles-bb2f2b.netlify.app/register",
-        },
-        {
-          image: PeacefulHomePage,
-          heading: "Peaceful Home Page",
-          description:
-            "Peaceful Home Page is home page app that has your location, weather, google search, etc. Under Development",
-          github: "https://github.com/JHaydenDev/PeacefulHomePage",
-          hosted: "https://jhaydendev.github.io/PeacefulHomePage/",
-        },
+        // {
+        //   image: StemTheTide,
+        //   heading: "Stem The Tide",
+        //   description:"Stem the tide is an informational site for an alternative game format for Magic The Gathering.  This is currently under development",
+        //   github: "https://github.com/JHaydenDev/Stem-the-tide",
+        //   hosted: "https://serene-wiles-bb2f2b.netlify.app/register",
+        // },
         {
           image: GitHubFavorites,
           heading: "GitHub Favorites",
@@ -88,14 +88,22 @@ class Projects extends Component {
           github: "https://github.com/Buildweek-Github-User-Breakdown",
           hosted: "https://admiring-mirzakhani-d0e93c.netlify.com/",
         },
-        {
-          image: PortfolioPageImg,
-          heading: "Portfolio Page",
-          description:
-            "This portfolio page was created using ReactJS, React Router, Styled Components, and HTML5",
-          github: "https://github.com/JHaydenDev/JHaydenDev.github.io",
-          hosted: "https://jhaydendev.github.io",
-        },
+        // {
+        //   image: PeacefulHomePage,
+        //   heading: "Peaceful Home Page",
+        //   description:
+        //     "Peaceful Home Page is home page app that has your location, weather, google search, etc. Under Development",
+        //   github: "https://github.com/JHaydenDev/PeacefulHomePage",
+        //   hosted: "https://jhaydendev.github.io/PeacefulHomePage/",
+        // },
+        // {
+        //   image: PortfolioPageImg,
+        //   heading: "Portfolio Page",
+        //   description:
+        //     "This portfolio page was created using ReactJS, React Router, Styled Components, and HTML5",
+        //   github: "https://github.com/JHaydenDev/JHaydenDev.github.io",
+        //   hosted: "https://jhaydendev.github.io",
+        // },
       ],
     };
   }
