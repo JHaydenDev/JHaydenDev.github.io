@@ -10,7 +10,7 @@ import LyfeLoggerImg from "./LyfeLoggerImg.png";
 import VeganMeats from "./VeganMeats.png";
 import StemTheTide from "./StemTheTide.png";
 import PrimativeQuiz from "./PrimativeQuiz.png";
-import AweSurvey from "./AweSurvey"
+import AweSurvey from "./AweSurvey.png"
 
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
