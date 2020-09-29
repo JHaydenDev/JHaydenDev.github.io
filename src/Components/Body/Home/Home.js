@@ -64,9 +64,9 @@ class Home extends Component {
         <Wrapper>
           <AboutPicture src={AboutMePic} />
           <Card>
-            Hello, I'm Joseph Hayden. I am a front end developer and I am
+            Hello, I'm Joseph Hayden. I am a full stack developer and I am
             passionate about creating software that improves the daily lives of
-            those around me. I like to create sites with clear cut ease of use
+            those around me. I like to create applications with clear cut ease of use
             and responsive design.
           </Card>
         </Wrapper>

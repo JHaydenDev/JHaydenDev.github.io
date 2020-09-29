@@ -10,6 +10,7 @@ import LyfeLoggerImg from "./LyfeLoggerImg.png";
 import VeganMeats from "./VeganMeats.png";
 import StemTheTide from "./StemTheTide.png";
 import PrimativeQuiz from "./PrimativeQuiz.png";
+import AweSurvey from "./AweSurvey"
 
 const Wrapper = styled.div`
   background: rgb(0, 0, 0); /* The Fallback */
@@ -33,6 +34,14 @@ class Projects extends Component {
     super(props);
     this.state = {
       projects: [
+        {
+          image: AweSurvey,
+          heading: "AWE Survey",
+          description:
+            "We built an API using Node.js and a front end UI using React.js which dynamically rendered results.",
+          github: "#",
+          hosted: "https://serene-hamlet-86075.herokuapp.com/#/",
+        },
         {
           image: PrimativeQuiz,
           heading: "Primative Quiz",
