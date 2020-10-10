@@ -35,6 +35,14 @@ class Projects extends Component {
     this.state = {
       projects: [
         {
+          image: YAMLTool,
+          heading: "YAML author tool",
+          description:
+            "We built an tool to build programs for continueing education of professionals and formatted them to be accepted by the clients legacy software.",
+          github: "#",
+          hosted: "https://yaml-author-tool.herokuapp.com/manager",
+        },
+        {
           image: AweSurvey,
           heading: "AWE Survey",
           description:
