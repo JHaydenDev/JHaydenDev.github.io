@@ -39,7 +39,7 @@ class Projects extends Component {
           image: YAMLTool,
           heading: "YAML author tool",
           description:
-            "We built an tool to build programs for continueing education of professionals and formatted them to be accepted by the clients legacy software.",
+            "We built a tool to build programs for the continuing education of professionals and formatted them to be accepted by the client's legacy software.",
           github: "#",
           hosted: "https://yaml-author-tool.herokuapp.com/manager",
         },

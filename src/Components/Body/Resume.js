@@ -54,18 +54,28 @@ class Resume extends Component {
             <h2>WORK EXPERIENCE</h2>
             <Card>
               <div>
-                <h3>Unify</h3>
+                <div>
+                  <h3>Ziggurat Technologies</h3>
+                  <h4>Chicago, IL —Fullstack / Mobile Developer</h4>
+                  <div>November 2020 - PRESENT</div>
+                  <p>
+                    Duties: Developing replacement software for existing IOS and
+                    Android deployments using React Native.
+                  </p>
+                </div>
+                <h3>ThinkTank Development</h3>
                 <h4>Chicago, IL —Fullstack Developer</h4>
                 <div>July 2020 - PRESENT</div>
                 <p>
-                  Duties: Developing front end tools using JavaScript, React,
-                  Redux, Sagas, etc. Develop backend using PHP and Laravel.
+                  Duties: Direct a team of developers for various freelance
+                  projects for a variety of clients in several different
+                  markets.
                 </p>
               </div>
               <div>
                 <h3>Lambda School</h3>
                 <h4>Chicago, IL —Project Manager / Team Lead</h4>
-                <div>August 2019 - PRESENT</div>
+                <div>August 2019 - September 2020</div>
                 <p>
                   Duties: Managing students in an admin capacity, reviewing
                   code, leading stand ups, and running code challenges.
@@ -81,39 +91,27 @@ class Resume extends Component {
                   clients, etc.
                 </p>
               </div>
+              <div></div>
+            </Card>
+            <h2>EDUCATION</h2>
+            <Card>
               <div>
-                <h3>MakeSpace Labs</h3>
-                <h4>Chicago, IL —Team Captain</h4>
-                <div>July. 2017 - January 2018</div>
-                <p>
-                  Duties: Job tracking, route tracking and planning, and
-                  transportation of customer's inventory.
-                </p>
+                <h3>Lambda School Chicago</h3>
+                <div>Chicago IL</div>
+                <div>Front End Development</div>
+                <div>2018-Present</div>
               </div>
-              <div>
-                <h3>Fabian and Son Heating and Cooling</h3>
-                <h4>Chicago, IL —Office Manager</h4>
-                <div>June 2016 - July 2017</div>
-                <p>
-                  Duties: Scheduling for everyone in the company, ordering
-                  supplies and parts, new hire onboarding, managing the
-                  company’s advertising portfolio, social media outreach, and a
-                  variety of other managerial duties.
-                </p>
-              </div>
-              <div>
-                <h3>Feld Entertainment</h3>
-                <h4>Chicago, IL—Assistant Sales Manager</h4>
-                <div>Dec. 2014 - Nov. 2016</div>
-                <p>
-                  Duties: Tracking inventory of merchandise, supervising
-                  vendors, working out the logistics of arenas for loading in
-                  and out, coordinating flights and hotels, handling customer
-                  issues, quality control, coordinating strategies to meet sales
-                  goals, training new hires, handling mass quantities of cash
-                  going in and out of the office, and data entry.
-                </p>
-              </div>
+            </Card>
+            <h2> GOALS</h2>
+            <Card>
+              <ul>
+                <li>Learn new front end libraries and frameworks.</li>
+                <li>Develop a exstensive GraphQL database.</li>
+                <li>
+                  Continue to learn new programming concepts along with UI/UX
+                  design.
+                </li>
+              </ul>
             </Card>
           </Fade>
         </ResumeBox>
@@ -123,13 +121,26 @@ class Resume extends Component {
               <h2>SKILLS / TECHNOLOGIES</h2>
               <Card>
                 <ul>
-                  <li>HTML5, CSS, SASS, Javascript, ReactJS, Redux, Axios.</li>
-                  <li>NodeJS, SQL, Express.</li>
-                  <li>Proficiency in Microsoft and Google suit.</li>
-                  <li>Git, Github, Trello</li>
+                  <h2>LANGUAGES</h2>
+                  <li>HTML5 / CSS</li>
+                  <li>JavaScript</li>
                   <li>Python</li>
-                  <li>Extensive managerial skills</li>
-                  <li>Social media advertising and profile management.</li>
+                  <li>PHP</li>
+                  <h2>LIBRARIES AND FRAMEWORKS</h2>
+                  <li>ReactJS / React Native</li>
+                  <li>Node.JS / Express</li>
+                  <li>GraphQL</li>
+                  <li>CSS libraries</li>
+                  <li>NPM / Yarn</li>
+                  <li>Jest</li>
+                  <h2>DATABASES</h2>
+                  <li>SQLite</li>
+                  <li>PostgreSQL</li>
+                  <li>MongoDB</li>
+                  <h2>DEPLOYMENT</h2>
+                  <li>Heroku</li>
+                  <li>Zeit</li>
+                  <li>Netlify</li>
                 </ul>
               </Card>
               <h2>VOLUNTEER WORK</h2>
@@ -153,26 +164,6 @@ class Resume extends Component {
                       development needs
                     </p>
                   </div>
-                </div>
-              </Card>
-              <h2> GOALS</h2>
-              <Card>
-                <ul>
-                  <li>Learn new front end libraries and frameworks.</li>
-                  <li>Develop a Python based backend.</li>
-                  <li>
-                    Continue to learn new programming concepts along with UI/UX
-                    design.
-                  </li>
-                </ul>
-              </Card>
-              <h2>EDUCATION</h2>
-              <Card>
-                <div>
-                  <h3>Lambda School Chicago</h3>
-                  <div>Chicago IL</div>
-                  <div>Front End Development</div>
-                  <div>2018-Present</div>
                 </div>
               </Card>
             </div>
