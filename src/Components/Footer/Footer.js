@@ -6,7 +6,6 @@ import {
   faTwitter,
   faLinkedin
 } from "@fortawesome/free-brands-svg-icons";
-import Contact from "./Contact/Contact";
 import Fade from "react-reveal/Fade";
 
 const Wrapper = styled.div`
@@ -68,7 +67,6 @@ class Footer extends Component {
           <p>Email<br/>josephhaydendevelopment<br/>@gmail.com</p>
           <p>Location<br/>Chicago, IL</p>
         </ContactInfo>
-        <Contact/>
         <SocialFollow>
           <h3>Follow me on social media!</h3>
           <div>

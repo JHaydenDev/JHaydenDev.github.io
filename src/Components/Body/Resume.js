@@ -55,12 +55,11 @@ class Resume extends Component {
             <Card>
               <div>
                 <div>
-                  <h3>Ziggurat Technologies</h3>
-                  <h4>Chicago, IL —Fullstack / Mobile Developer</h4>
-                  <div>November 2020 - PRESENT</div>
+                  <h3>Syngenta</h3>
+                  <h4>Chicago, IL —Fullstack Developer</h4>
+                  <div>September 2021 - PRESENT</div>
                   <p>
-                    Duties: Developing replacement software for existing IOS and
-                    Android deployments using React Native.
+                    Duties: Developing several digital products for the agriculture space.  
                   </p>
                 </div>
                 <h3>ThinkTank Development</h3>
@@ -99,14 +98,14 @@ class Resume extends Component {
                 <h3>Lambda School Chicago</h3>
                 <div>Chicago IL</div>
                 <div>Front End Development</div>
-                <div>2018-Present</div>
+                <div>2018-2020</div>
               </div>
             </Card>
             <h2> GOALS</h2>
             <Card>
               <ul>
-                <li>Learn new front end libraries and frameworks.</li>
-                <li>Develop a exstensive GraphQL database.</li>
+                <li>Build out a non-profit product and learn the business structure involved.</li>
+                <li>Develop an exstensive GraphQL database.</li>
                 <li>
                   Continue to learn new programming concepts along with UI/UX
                   design.
@@ -134,6 +133,7 @@ class Resume extends Component {
                   <li>NPM / Yarn</li>
                   <li>Jest</li>
                   <h2>DATABASES</h2>
+                  <li>S3</li>
                   <li>SQLite</li>
                   <li>PostgreSQL</li>
                   <li>MongoDB</li>
@@ -141,6 +141,7 @@ class Resume extends Component {
                   <li>Heroku</li>
                   <li>Zeit</li>
                   <li>Netlify</li>
+                  <li>AWS</li>
                 </ul>
               </Card>
               <h2>VOLUNTEER WORK</h2>
