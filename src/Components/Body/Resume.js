@@ -132,11 +132,12 @@ class Resume extends Component {
                   <li>CSS libraries</li>
                   <li>NPM / Yarn</li>
                   <li>Jest</li>
+                  <li>Cypress</li>
                   <h2>DATABASES</h2>
                   <li>S3</li>
                   <li>SQLite</li>
                   <li>PostgreSQL</li>
-                  <li>MongoDB</li>
+                  <li>GraphQL</li>
                   <h2>DEPLOYMENT</h2>
                   <li>Heroku</li>
                   <li>Zeit</li>
